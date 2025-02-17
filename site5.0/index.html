@@ -1,0 +1,189 @@
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Mineiras</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="programação.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#receitas_tipicas">Receitas</a></li>
+            <li><a href="#salgados">Salgados</a></li>
+            <li><a href="#petiscos">Petiscos</a></li>
+            <li><a href="#doces">Doces</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section id="receitas_tipicas">
+            <br>
+            <h1>Receitas típicas de Minas Gerais</h1>
+        </section>
+        <br>
+        <br>
+        <div class="sla">
+            <img src="img/imagem01.jpg" alt="Representação das comidas Mineiras" class="banner">
+            <br>
+            <p>A gastronomia do Nordeste é um convite para saborear a cultura e os ingredientes
+                frescos dessa região encantadora.Essas comidas não são só deliciosas, são uma verdadeira viagem ao
+                coração do Nordeste, onde cada prato tem um pedaço da história e da cultura da região. Quem prova, se
+                apaixona!</p>
+        </div>
+        <br>
+        <section id="salgados">
+            <h2>Salgados</h2>
+        </section>
+        <br>
+        <div class="sla">
+            <h2>Feijão Tropeiro</h2>
+            <img src="img/feijaoTropeiro.jpg" alt="Representação da comida (Feijão Tropeiro)">
+            <p>Você conhece a história dessa iguaria? essa é uma típica receita dos tropeiros que usavam o feijão sem caldo (para não estragar), pedaços de carne do sol e toucinho, que são originários da cozinha mineira, para fazer uma boa refeição. foi assim que surgiu o feijão tropeiro e hoje há receitas que adicionam bacon, linguiça calabresa, ovos e farinha de mandioca, todos que possuem um prazo de validade maior para viagens ou são defumados. </p>
+            <button onclick="mostrarFeijão()">Confira a receita</button>
+            <div id="feijaoTropeiro">
+                <h2>Ingredientes</h2>
+                <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+            </div>
+            <br>
+            <div class="sla">
+                <h2>Tutu de Feijão</h2>
+                <img src="img/tutudeFeijao.jpg" alt="Representação da comida (Tutu de feijão)">
+                <p>Essa também é uma receita tradicional que chegou em Minas junto com os Portugueses. à época, a ideia surgiu para aumentar a quantidade de comida com a farinha, sem aumentar os ingredientes com o feijão e o sal, devido ao preço alto da época..</p>
+                <button onclick="mostrarTutu()">Confira a receita</button>
+                <div id="tutudeFeijao">
+                    <h2>Ingredientes</h2>
+                    <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+                </div>
+            </div>
+            <br>
+            <div class="sla">
+                <h2>Frango com Quiabo</h2>
+                <img src="img/FrangoQuiabo.jpg" alt="Representação da comida (Frango com Quiabo)">
+                <p>apesar da comida mineira ser rica em sabores, ela pode ser bem simples de se fazer. o frango com quiabo é um ótimo exemplo! pra fazer, basta temperar o seu frango e prepará-lo deixando um pouco de caldo. em paralelo, refogue o quiabo inteiro ou partido em pequenas rodelas. depois que o frango estiver cozido, adicione o quiabo e deixe cozinhar até engrossar um pouco o caldo.</p>
+                <button onclick="mostrarQuiabo()">Confira a receita</button>
+                <div id="FrangoQuiabo">
+                    <h2>Ingredientes</h2>
+                    <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+                </div>
+            </div>
+            <br>
+            <div class="sla">
+                <h2>Vaca Atolada</h2>
+                <img src="img/vaca-atolada.jpg" alt="Representação da comida (Vaca atolada)">
+                <p>Outra refeição que veio das viagens entre os estados é a vaca atolada que chegou em minas junto com as comitivas de boiadeiros. a história é que os peões viajavam com pedaços de carne mergulhados na gordura e pelo caminho apanhavam as mandiocas.</p>
+                <button onclick="mostrarVaca()">Confira a receita</button>
+                <div id="vacaAtolada">
+                    <h2>Ingredientes</h2>
+                    <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+                </div>
+            </div>
+            <br>
+            <div class="sla">
+                <h2>Acaraje</h2>
+                <img src="img/Acaraje.png" alt="Representação da comida (Acaraje)">
+                <p>A canjiquinha é feita com milho quebrado, e é cozida junto com carne de sol desfiada. É um prato
+                    simples e muito saboroso, bem comum em festas típicas.</p>
+                <button onclick="mostrarAracaje()">Confira a receita</button>
+                <div id="aracaje">
+                    <h2>Ingredientes</h2>
+                    <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+                </div>
+            </div>
+            <div class="sla">
+                <h2>Cozido Mineiro</h2>
+                <img src="img/cozido mineiro.jpg" alt="Representação da comida (Cozido mineiro)">
+                <p>Um prato de carne de boi, frango, legumes como batata-doce, cenoura e abóbora, cozidos lentamente.
+                    Tem um sabor suave e é uma refeição bem nutritiva.</p>
+                <button onclick="mostrarCozido()">Confira a receita</button>
+                <div id="CozidoMineiro">
+                    <h2>Ingredientes</h2>
+                    <li>500 g de carne suína (lombo ou pernil)</li>
+                    <li>1 limão</li>
+                    <li>1 colher (chá) de sal</li>
+                    <li>1 colher (sopa) de óleo ou azeite </li>
+                    <li>1 colher (sopa) de óleo ou azeite </li>
+                    <li>3 dentes de alho amassados</li>
+                    <li>2 xícaras (chá) de água</li>
+                    <li>3 colheres (sopa) de fubá </li>
+                    <li>4 folhas grandes de couve manteiga </li>
+                    <li>1 xícara (chá) de talos de couve picados </li>
+                    <li>3 colheres (sopa) de salsa/cebolinha </li>
+
+                    <h2>Modo de preparo:</h2>
+                    <p>Corte a carne em cubos e tempere com o limão e o sal. Reserve. </p>
+                    <p>Refogue a cebola e o alho no óleo e junte a carne.</p>
+                    <p> Deixe cozinhar por 10 minutos, mexendo sempre. </p>
+                    <p>Misture a água e o fubá e acrescente a mistura acima.</p>
+                    <p>Rasgue a couve em pequenos pedaços e coloque-a na panela. </p>
+                    <p>Acrescente os talos picados, deixando até engrossar.</p>
+                    <p> Adicione a salsa/cebolinha e sirva em seguida.</p>
+                    <p>Dica: substitua, se preferir, a couve por folhas de espinafre.</p>
+                </div>
+            </div>
+            <br>
+            <section id="petiscos">
+                <h1>Petiscos</h1>
+            </section>
+            <br>
+            <div class="sla">
+                <h2>Pão de Queijo</h2>
+                <img src="img/paodeQueijo.jpg" alt="Representação da comida (Pão de queijo)">
+                <p>Não podemos deixar de fora o mais famoso e amado: o pão de queijo mineiro. ele surgiu como um pãozinho mesmo, no século 18, e misturava farinha de mandioca (que depois passou a se chamar polvilho) e restos de queijo que ficaram endurecidos.</p>
+                <button onclick="mostrarPao()">Confira a receita</button>
+                <div id="paodeQueijo">
+                    <h2>Ingredientes</h2>
+                    <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+                </div>
+            </div>
+            <br>
+            <div class="sla">
+                <h2>Biscoito de Polvilho</h2>
+                <img src="img/Biscoito_de_polvilho.jpg" alt="Representação da comida (Biscoito de polvilho)">
+                <p>Um biscoito leve e crocante, feito com polvilho azedo e doce, tipicamente servido no café da manhã ou
+                    lanche da tarde.</p>
+                <button onclick="mostrarBiscoito()">Confira a receita</button>
+                <div id="biscoitoPolvilho">
+                    <h2>Ingredientes</h2>
+                    <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+                </div>
+            </div>
+            <br>
+            <section id="doces">
+                <h2>Doces</h2>
+            </section>
+            <br>
+            <div class="sla">
+                <h2>Curau</h2>
+                <img src="img/curau.jpg" alt="Representação da comida (Curau)">
+                <p>Sobremesa feita com milho verde, leite, açúcar e canela. Fica cremoso e é uma ótima pedida para o
+                    inverno.</p>
+                <button onclick="mostrarCurau()">Confira a receita</button>
+                <div id="curau">
+                    <h2>Ingredientes</h2>
+                    <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+                </div>
+            </div>
+            <br>
+            <div class="sla">
+                <h2>Ambrosia</h2>
+                <img src="img/ambrosia.jpg" alt="Representação da comida (Ambrosia)">
+                <p>A ambrosia, conhecida como a comida dos deuses na mitologia grega, ganha um sabor especial com esta
+                    receita. As especiarias e o limão complementam o doce, trazendo um toque aromático divino. Embora a
+                    versão tradicional portuguesa leve apenas ovos e açúcar, essa adaptação enriquece ainda mais o
+                    preparo.</p>
+                <button onclick="mostrarAmbrosia()">Confira a receita</button>
+                <div id="ambrosia">
+                    <h2>Ingredientes</h2>
+                    <p>Este é o conteúdo que estava oculto e agora é exibido após o clique.</p>
+                </div>
+
+            </div>
+    </main>
+</body>
+
+</html>
